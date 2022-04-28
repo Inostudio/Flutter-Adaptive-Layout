@@ -8,6 +8,7 @@ class Repo {
     Animal(
       breed: "Purebred cat",
       image: Image.asset(Strings.catImage(0)),
+      age: 1,
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
       description:
@@ -15,6 +16,7 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+      age: 2,
       image: Image.asset(Strings.catImage(1)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -23,6 +25,7 @@ class Repo {
     ),
     Animal(
       breed: "Cat too",
+      age: 3,
       image: Image.asset(Strings.catImage(2)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -31,6 +34,7 @@ class Repo {
     ),
     Animal(
       breed: "Very purebred cat",
+      age: 4,
       image: Image.asset(Strings.catImage(3)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -39,6 +43,7 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+      age: 5,
       image: Image.asset(Strings.catImage(4)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -47,6 +52,8 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+
+      age: 6,
       image: Image.asset(Strings.catImage(5)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -55,6 +62,7 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+      age: 7,
       image: Image.asset(Strings.catImage(6)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -63,6 +71,8 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+
+      age: 8,
       image: Image.asset(Strings.catImage(7)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",
@@ -71,6 +81,8 @@ class Repo {
     ),
     Animal(
       breed: "Cat",
+
+      age: 9,
       image: Image.asset(Strings.catImage(8)),
       shortDescription:
           "The cat (Felis catus) is a domestic species of small carnivorous mammal.",

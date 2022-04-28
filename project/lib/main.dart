@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:project/constants/repo.dart';
+import 'package:project/screens/animal_details_screen.dart';
+import 'package:project/screens/grid_screen.dart';
 
 import 'screens/my_home_page.dart';
 
@@ -16,7 +19,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: AnimalDetailsScreen(animal: Repo.dogs[0]),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
